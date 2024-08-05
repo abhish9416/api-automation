@@ -1,0 +1,15 @@
+{
+  "request": {
+    "method": "post",
+    "url": "https://reqres.in/api/users",
+    "payload": {
+      "name": "morpheus",
+      "job": "leader"
+    }
+  },
+  "assertions": {
+    "responseCode": 201,
+    "content-type": "application/json",
+    "maxResponseTimeInMiliseconds": 10
+  }
+}
